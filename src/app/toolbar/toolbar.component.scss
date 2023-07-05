@@ -1,0 +1,107 @@
+.container {
+  background-color: white;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  max-width: 400px;
+}
+
+ul {
+  margin: 0;
+  width: 130px;
+}
+
+li {
+  display: inline;
+  padding: 0 6px;
+}
+
+.social-icon {
+  max-width: 30px;
+}
+
+@media(max-width: 675px) {
+  .logo {
+    max-width: 350px;
+  }
+}
+
+@media(max-width: 560px) {
+  .logo {
+    max-width: 300px;
+  }
+}
+
+@media(max-width: 500px) {
+  .logo {
+    max-width: 275px;
+  }
+}
+
+@media(max-width: 462px) {
+  .logo {
+    max-width: 270px;
+  }
+
+  .social-icon {
+    max-width: 26px;
+  }
+}
+
+@media(max-width: 445px) {
+  .logo {
+    max-width: 240px;
+  }
+}
+
+@media(max-width: 415px) {
+  .logo {
+    max-width: 230px;
+  }
+}
+
+@media(max-width: 405px) {
+  .logo {
+    max-width: 220px;
+  }
+
+  .social-icon {
+    max-width: 25px;
+  }
+}
+
+@media(max-width: 390px) {
+  .logo {
+    max-width: 210px;
+  }
+}
+
+@media(max-width: 380px) {
+  .logo {
+    max-width: 200px;
+  }
+}
+
+@media(max-width: 370px) {
+  .logo {
+    max-width: 195px;
+  }
+
+  .social-icon {
+    max-width: 24px;
+  }
+}
+
+@media(max-width: 360px) {
+  .logo {
+    max-width: 185px;
+  }
+
+  .social-icon {
+    max-width: 23px;
+  }
+}

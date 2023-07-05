@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
+import { DeviceService } from './device/device.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'midwestern';
+
+  constructor(public deviceService: DeviceService) { }
+
+  @HostListener('window:resize', ['$event'])
+  onResize(event: any) {
+    this.deviceService.width = document.body.offsetWidth;
+    this.deviceService.isMobile = this.deviceService.width < 675;
+  }
+
 }

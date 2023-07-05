@@ -1,0 +1,116 @@
+img {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  filter: brightness(0.9);
+}
+
+.truck-trailer-overlay {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.55);
+  display: flex;
+  justify-content: center;
+}
+
+.overlay-text {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(236, 173, 60);
+  font-size: 80px;
+  line-height: 1.1em;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'oswald',Helvetica,Arial,sans-serif;
+}
+
+.section {
+  padding: 32px 0;
+  padding: 92px;
+  text-align: center;
+}
+
+.section .max-width {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.light {
+  background-color: white;
+  color: rgb(48, 48, 48);
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'oswald',Helvetica,Arial,sans-serif;
+  line-height: 1em;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+}
+
+.section p {
+  font-size: 16px;
+}
+
+.mat-grid-tile {
+  text-align: center;
+}
+
+.mat-grid-tile img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.mat-grid-tile span {
+  z-index: 1;
+  font-family: 'oswald',Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 1.1em;
+  padding: 4px;
+}
+
+@media(max-width: 1300px) {
+  .overlay-text {
+    font-size: 60px;
+    max-width: 700px;
+  }  
+}
+
+@media(max-width: 560px) {
+  .overlay-text {
+    font-size: 40px;
+  }
+
+  .section {
+    padding: 92px 64px;
+  }
+}
+
+@media(max-width: 430px) {
+  .mat-grid-tile span {
+    font-size: 36px;
+  }
+}
+
+@media(max-width: 410px) {
+  .overlay-text {
+    font-size: 40px;
+  }
+
+  .section {
+    padding: 92px 30px;
+  }
+}
