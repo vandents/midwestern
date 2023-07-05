@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "publish": "ngh --repo=https://GH_TOKEN@github.com/vandents/midwestern.git --name=\"vandents\" --email=vandents@mail.gvsu.edu --no-silent",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
